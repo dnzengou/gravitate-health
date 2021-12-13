@@ -8,7 +8,7 @@ Usage: #example
 * identifier.use = #official
 
  // Reference to MedicinalProductDefinition: EU/1/17/1201/002 120 mg, 40
-* subject = Reference(cfsb1639238291499)
+* subject[0] = Reference(cfsb1639238291499)
 
 * type = https://spor.ema.europa.eu/rmswi/#/#100000072062
 * type.text = "Marketing Authorisation"
